@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwipeProfile</title>
+
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;0,800;0,900;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <div class="main">
+       <div class="header">
+           <img src="pictures/menu.png" class="menu-icon">
+           <p>Wanderlust</p>
+           <img src="pictures/alarm.png" class="bell-icon">
+       </div>
+        
+        <div class="main-text">
+            <h2>Our Team</h2>
+            <small>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. laboriosam hic inventore! Quidem reiciendis placeat totam, 
+            facere commodi a qui voluptates quos.
+        </small>
+        </div>
+         <div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+          <img src="pictures/img1.jpg" alt="">
+          <div class="info">
+              <h3>Arthur williams</h3>
+              <p>Founder & Ceo</p>
+              <a href="#"> contact</a>
+          </div>
+      </div>
+     <div class="swiper-slide">
+          <img src="pictures/img2.jpg" alt="">
+          <div class="info">
+              <h3>Arthur williams</h3>
+              <p>Founder & Ceo</p>
+              <a href="#"> contact</a>
+          </div>
+      </div>
+      <div class="swiper-slide">
+          <img src="pictures/img3.jpg" alt="">
+          <div class="info">
+              <h3>Arthur williams</h3>
+              <p>Founder & Ceo</p>
+              <a href="#"> contact</a>
+          </div>
+      </div>
+      <div class="swiper-slide">
+          <img src="pictures/img4.jpg" alt="">
+          <div class="info">
+              <h3>Arthur williams</h3>
+              <p>Founder & Ceo</p>
+              <a href="#"> contact</a>
+          </div>
+      </div>
+      <div class="swiper-slide">
+          <img src="pictures/img5.jpg" alt="">
+          <div class="info">
+              <h3>Arthur williams</h3>
+              <p>Founder & Ceo</p>
+              <a href="#"> contact</a>
+          </div>
+      </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+   
+  </div>
+
+
+      
+    
+        <div class="footer">
+            <img src="pictures/home.png" class="home">
+            <img src="pictures/s2 (1).png" class="home">
+            <img src="pictures/user.png" class="home">
+            <img src="pictures/s2 (2).png" class="home">
+
+        </div>
+     </div>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+ <script>
+     
+    
+    var swiper = new Swiper('.swiper', {
+      slidesPerView: 'auto',
+      spaceBetween: 40,
+      centeredSlides: true,
+      grabCursor: true,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+ 
+    });
+  </script>
+</body>
+</html>
